@@ -1,0 +1,391 @@
+@echo off
+cls
+:menu
+cls
+color 00
+
+date /t 
+time /t
+
+echo Computer: %computername%        User: %username%
+
+echo       CONTROL REMOTE EQUIPMENTS
+echo  ==================================
+echo ** 
+echo **
+echo ** 5 FOR EXIT
+echo  ==================================
+
+set /p opcao= Digite o numero do equipamento: 
+echo  ==================================
+
+if %opcao% equ 1051 goto opcao1051
+if %opcao% equ 1058 goto opcao1058
+if %opcao% equ 1066 goto opcao1066
+if %opcao% equ 1067 goto opcao1067
+if %opcao% equ 1069 goto opcao1069
+if %opcao% equ 1070 goto opcao1070
+if %opcao% equ 1104 goto opcao1104
+if %opcao% equ 1105 goto opcao1105
+if %opcao% equ 1106 goto opcao1106
+if %opcao% equ 1135 goto opcao1135
+if %opcao% equ 1151 goto opcao1151
+if %opcao% equ 1160 goto opcao1160
+if %opcao% equ 1161 goto opcao1161
+if %opcao% equ 1203 goto opcao1203
+if %opcao% equ 1220 goto opcao1220
+if %opcao% equ 1245 goto opcao1245
+if %opcao% equ 1246 goto opcao1246
+if %opcao% equ 1247 goto opcao1247
+if %opcao% equ 1248 goto opcao1248
+if %opcao% equ 1249 goto opcao1249
+if %opcao% equ 1250 goto opcao1250
+if %opcao% equ 1253 goto opcao1253
+if %opcao% equ 1254 goto opcao1254
+if %opcao% equ 1255 goto opcao1255
+if %opcao% equ 1256 goto opcao1256
+if %opcao% equ 1257 goto opcao1257
+if %opcao% equ 1258 goto opcao1258
+if %opcao% equ 1259 goto opcao1259
+if %opcao% equ 1525 goto opcao1525
+if %opcao% equ 1526 goto opcao1526
+if %opcao% equ 1527 goto opcao1527
+if %opcao% equ 1528 goto opcao1528
+if %opcao% equ 1529 goto opcao1529
+if %opcao% equ 1530 goto opcao1530
+if %opcao% GEQ 6 goto opcao5
+
+:opcao1051
+cls
+ssh bri7000@20.20.3.7
+echo ==================================
+echo *      teste          *
+echo ==================================
+pause
+goto menu
+
+:opcao1058
+cls
+ssh bri7000@20.20.3.9
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1066
+cls
+ssh bri7000@20.20.3.11
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1067
+cls
+ssh bri7000@20.20.3.13
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1069
+cls
+ssh bri7000@20.20.3.15
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1070
+cls
+ssh bri7000@20.20.3.17
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1071
+cls
+ssh bri7000@20.20.3.19
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1080
+cls
+ssh bri7000@20.20.3.21
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1104
+cls
+ssh bri7000@20.20.3.25
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1105
+cls
+ssh bri7000@20.20.3.27
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1106
+cls
+ssh bri7000@20.20.3.29
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1135
+cls
+ssh bri7000@20.20.3.31
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1151
+cls
+ssh bri7000@20.20.3.33
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1160
+cls
+ssh bri7000@20.20.3.35
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1161
+cls
+ssh bri7000@20.20.3.37
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1203
+cls
+ssh bri7000@20.20.3.39
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1220
+cls
+ssh bri7000@20.20.3.41
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1245
+cls
+ssh bri7000@20.20.3.43
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1246
+cls
+ssh bri7000@20.20.3.45
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1247
+cls
+ssh bri7000@20.20.3.47
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1248
+cls
+ssh bri7000@20.20.3.49
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1249
+cls
+ssh bri7000@20.20.3.51
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1250
+cls
+ssh bri7000@20.20.3.53
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1253
+cls
+ssh bri7000@20.20.3.59
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1254
+cls
+ssh bri7000@20.20.3.61
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1255
+cls
+ssh bri7000@20.20.3.63
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1256
+cls
+ssh bri7000@20.20.3.65
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1257
+cls
+ssh bri7000@20.20.3.67
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1258
+cls
+ssh bri7000@20.20.3.69
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1259
+cls
+ssh bri7000@20.20.3.71
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1525
+cls
+ssh bri7000@20.20.3.73
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1526
+cls
+ssh bri7000@20.20.3.75
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1527
+cls
+ssh bri7000@20.20.3.77
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1528
+cls
+ssh bri7000@20.20.3.79
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1529
+cls
+ssh bri7000@20.20.3.27
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+:opcao1530
+cls
+ssh bri7000@20.20.3.27
+echo ==================================
+echo *      OK!         *
+echo ==================================
+pause
+goto menu
+
+cls
+exit
+
+:opcao1135
+
+echo ==============================================
+echo * Opcao Invalida! Escolha outra opcao do menu *
+echo ==============================================
+pause
+goto menu
